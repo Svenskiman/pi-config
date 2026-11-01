@@ -1,0 +1,49 @@
+{
+  "permission": {
+    "*": "allow",
+    "bash": {
+      "*": "ask",
+      "ls *": "allow",
+      "cat *": "allow",
+      "grep *": "allow",
+      "cd *": "allow",
+      "echo *": "allow",
+      "pwd": "allow",
+      "find *": "allow",
+      "head *": "allow",
+      "which *": "allow",
+      "date *": "allow",
+      "tail *": "allow",
+      "git status*": "allow",
+      "git diff*": "allow",
+      "git log*": "allow",
+      "npm test*": "allow",
+      "npm run *": "allow",
+      "ruff *": "allow",
+      "rm -rf *": "ask",
+      "sudo *": "ask",
+      "sed *": "deny",
+      "docker compose logs *": "allow",
+      "docker ps *": "allow"
+    },
+    "path": {
+      "*": "allow",
+      "*.env": "deny",
+      "*.env.*": "deny",
+      "*.env.example": "allow",
+      "~/.ssh/*": "deny"
+    },
+    "external_directory": {
+      "*": "ask",
+      "~/path/to/first-folder/*": "allow",
+      "~/path/to/second-folder/*": "allow",
+      "/var/folders/*": "allow",
+      "/private/var/folders/*": "allow",
+      "/tmp/*": "allow",
+      "/private/tmp/*": "allow"
+    },
+    "external_directory_read": {
+      "~/.pi/*": "allow"
+    }
+  }
+}

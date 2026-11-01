@@ -1,0 +1,20 @@
+{
+  "providers": {
+    "spark-deepseek": {
+      "baseUrl": "http://keats:8000/v1",
+      "api": "openai-completions",
+      "apiKey": "none",
+      "models": [
+        { "id": "deepseek-v4-flash-0731", "contextWindow": 384000, "input": ["text"] }
+      ]
+    },
+    "spark-qwen": {
+      "baseUrl": "http://keats:8888/v1",
+      "api": "openai-completions",
+      "apiKey": "none",
+      "models": [
+        { "id": "Qwen3.8-Flash-Next", "contextWindow": 262144, "reasoning": true, "input": ["text", "image"] }
+      ]
+    }
+  }
+}

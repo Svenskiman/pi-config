@@ -1,0 +1,17 @@
+*
+!.gitignore
+!models.json
+!settings.json
+!AGENTS.md
+!APPEND_SYSTEM.md
+!extensions/
+!extensions/**
+!skills/
+!skills/**
+!prompts/
+!prompts/**
+**/.venv/
+**/node_modules/
+.DS_Store
+**/logs/
+*.jsonl
