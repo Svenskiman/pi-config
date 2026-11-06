@@ -1,4 +1,6 @@
 {
+  "defaultProvider": "spark-qwen",
+  "defaultModel": "Qwen3.8-Flash-Next",
   "lastChangelogVersion": "1.4.0",
   "packages": [
     "npm:@juicesharp/rpiv-web-tools",
