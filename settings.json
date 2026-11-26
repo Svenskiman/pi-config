@@ -7,6 +7,7 @@
     "npm:@juicesharp/rpiv-ask-user-question",
     "npm:@gotgenes/pi-permission-system",
     "npm:@janvitos/pi-plan-build",
-    "npm:@zosmaai/pi-llm-wiki"
+    "npm:@zosmaai/pi-llm-wiki",
+    "../../.local/share/uv/tools/graphifyy/lib/python3.11/site-packages/graphify/pi"
   ]
 }

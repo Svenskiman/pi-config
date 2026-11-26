@@ -11,6 +11,7 @@
       "echo *": "allow",
       "pwd": "allow",
       "find *": "allow",
+      "for *": "allow",
       "head *": "allow",
       "which *": "allow",
       "date *": "allow",
